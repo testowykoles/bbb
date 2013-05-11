@@ -1,6 +1,7 @@
-t = getText()
-f = FontLoader().loadFOnt('fancyFont/')
-d = TextDrawer()
-d.setFont(f)
-d.draw(t)
+text = getText()
+font = FontLoader().loadFOnt('fancyFont/')
+
+drawer = TextDrawer()
+drawer.setFont(f)
+drawer.draw(t)
 
