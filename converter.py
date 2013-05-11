@@ -1,3 +1,6 @@
+def getText():
+	return 'Git'
+
 t = getText()
 f = FontLoader().loadFOnt('fancyFont/')
 d = TextDrawer()
